@@ -13,13 +13,13 @@ void CreateBoard(std::vector<std::vector<std::string>>&matrix){
 
 }
 
-void DisplayBoard(std::vector<std::vector<std::string>>&matrix){
-  for (int i = 0; i < matrix.size(); i++){
-      for (int j = 0; j < board[i].size(); j++){
-          std::cout << board[i][j] << " | ";
-      }
-      std::cout << std::endl;
+void DisplayBoard(char** board){
+  for(int x=0;x<3;x++){ 
+    for(int y=0;y<3;y++){  
+      std::cout<<board[x][y]; 
     }
+	 std::cout << std::endl;
+  }
 }
 int main(){
   std::vector<std::vector<std::string>> board;
