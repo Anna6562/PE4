@@ -21,6 +21,13 @@ void DisplayBoard(char** board){
 	 std::cout << std::endl;
   }
 }
+int GetPlayerChoice()
+{
+  int choice;
+  std::cout << "Enter in your choice"<< std::endl;
+  std::cin >> choice;
+  return choice;
+}
 int main(){
   std::vector<std::vector<std::string>> board;
   CreateBoard(board);
