@@ -14,9 +14,9 @@ void CreateBoard(std::vector<std::vector<std::string>>&matrix){
 }
 
 void DisplayBoard(char** board){
-  for(int x=0;x<3;x++){ 
-    for(int y=0;y<3;y++){  
-      std::cout<<board[x][y]; 
+  for(int x=0;x<3;x++){  // loop through x cordinates
+    for(int y=0;y<3;y++){  // loop for through y cordinates
+      std::cout<<board[x][y];  // display the current value in each corrdinate of the board
     }
 	 std::cout << std::endl;
   }
