@@ -24,6 +24,14 @@ void DisplayBoard(std::vector<std::vector<std::string>>&matrix){
   }
 }
 
+int GetPlayerChoice()
+{
+  int choice;
+  std::cout << "Enter in your choice"<< std::endl;
+  std::cin >> choice;
+  return choice;
+}
+
 void PlaceMaker(std::vector<std::vector<std::string>>&matrix,bool x){
   if(x){
     matrix[GetPlayerChoice()][GetPlayerChoice()] = "X";
