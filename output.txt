@@ -1,0 +1,75 @@
+|  | |  | |  |
+|  | |  | |  |
+|  | |  | |  |
+
+Enter in your choice
+1
+Enter in your choice
+1
+|  | |  | |  |
+|  | | X | |  |
+|  | |  | |  |
+
+Enter in your choice
+0
+Enter in your choice
+0
+| O | |  | |  |
+|  | | X | |  |
+|  | |  | |  |
+
+Enter in your choice
+1
+Enter in your choice
+0
+| O | | X | |  |
+|  | | X | |  |
+|  | |  | |  |
+
+Enter in your choice
+1
+Enter in your choice
+2
+| O | | X | |  |
+|  | | X | |  |
+|  | | O | |  |
+
+Enter in your choice
+0
+Enter in your choice
+2
+| O | | X | |  |
+|  | | X | |  |
+| X | | O | |  |
+
+Enter in your choice
+2
+Enter in your choice
+0
+| O | | X | | O |
+|  | | X | |  |
+| X | | O | |  |
+
+Enter in your choice
+0
+Enter in your choice
+1
+| O | | X | | O |
+| X | | X | |  |
+| X | | O | |  |
+
+Enter in your choice
+2
+Enter in your choice
+1
+| O | | X | | O |
+| X | | X | | O |
+| X | | O | |  |
+
+Enter in your choice
+2
+Enter in your choice
+2
+| O | | X | | O |
+| X | | X | | O |
+| X | | O | | X |

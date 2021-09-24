@@ -22,7 +22,7 @@ void DisplayBoard(std::vector<std::vector<std::string>>&matrix){
     }
 	 std::cout << std::endl;
   }
-}
+
 
 int GetPlayerChoice()
 {
@@ -32,7 +32,7 @@ int GetPlayerChoice()
   return choice;
 }
 
-void PlaceMaker(std::vector<std::vector<std::string>>&matrix,bool x){
+void PlaceMarker(std::vector<std::vector<std::string>>&matrix,bool x){
   if(x){
     matrix[GetPlayerChoice()][GetPlayerChoice()] = "X";
   }
@@ -44,5 +44,11 @@ void PlaceMaker(std::vector<std::vector<std::string>>&matrix,bool x){
 int main(){
   std::vector<std::vector<std::string>> board;
   CreateBoard(board);
+  int count = 1;
   DisplayBoard(board);
+  while(count < 10){
+    PlaceMarker(board,count%2);
+    count += 1;
+    DisplayBoard(board);
+  }
 }
