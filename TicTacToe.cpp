@@ -15,8 +15,8 @@ void CreateBoard(std::vector<std::vector<std::string>>&matrix){
 
 void DisplayBoard(std::vector<std::vector<std::string>>&matrix){
   for (int i = 0; i < matrix.size(); i++){
-      for (int j = 0; j < board[i].size(); j++){
-          std::cout << board[i][j] << " | ";
+      for (int j = 0; j < matrix[i].size(); j++){
+          std::cout  << "| " << matrix[i][j] << " | ";
       }
       std::cout << std::endl;
     }
@@ -24,4 +24,5 @@ void DisplayBoard(std::vector<std::vector<std::string>>&matrix){
 int main(){
   std::vector<std::vector<std::string>> board;
   CreateBoard(board);
+  DisplayBoard(board);
 }
